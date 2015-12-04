@@ -112,7 +112,7 @@ static UIImage *imageFromColor(UIColor *color)
                                                        callback:(WPYPaymentViewCallback)callback
 {
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"WebPay"
-                                                         bundle:nil];
+                                                         bundle:[NSBundle bundleForClass:[self class]]];
     WPYPaymentViewController *vc = (WPYPaymentViewController *)[storyboard instantiateInitialViewController];
     vc.priceTag = priceTag;
     vc.card = card;

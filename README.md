@@ -20,7 +20,7 @@ You can either install using cocoapods(recommended) or copying files manually.
 ### 1. Cocoapods(Recommended)
 In your Podfile, add a line
 ```
-pod 'WebPay', '~> 2.0.2'
+pod 'WebPay', '~> 2.0.3'
 ```
 then, run `pod install`.
 

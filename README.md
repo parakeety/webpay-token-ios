@@ -17,7 +17,7 @@ webpay-token-ios supports iOS 7 and above.
 
 You can either install using cocoapods(recommended) or copying files manually.
 
-### 1. Cocoapods(Recommended)
+### 1. CocoaPods(Recommended)
 In your Podfile, add a line
 ```
 pod 'WebPay', '~> 2.0.3'
